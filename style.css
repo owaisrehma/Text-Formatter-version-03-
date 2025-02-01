@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(3, 98, 98);
+}
+
+.container h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 550;
+    text-align: center;
+}
+
+#input-box {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#input-box:hover {
+    box-shadow: #fff 0 0 10px;
+}
+
+
+.options {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    
+}
+
+.colone {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    
+}
+.colone input {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.colone input:hover{
+    background-color: rgb(1, 63, 63);
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.coltwo {
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+.coltwo input {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.coltwo input:hover{
+    background-color: rgb(1, 63, 63);
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#Clear-button  {
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer; 
+
+}
+
+.btn input:hover{
+    background-color: rgb(1, 63, 63);
+    color: #fff;
+    transition: 0.3s ease;
+}
